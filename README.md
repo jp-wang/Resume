@@ -1,2 +1,2 @@
 # Resume
-My resume
+![](Jianpu_Wang_Resume_Preview.png)
