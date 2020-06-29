@@ -81,7 +81,8 @@
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{\href{https://jp-wang.github.io}{\Large Jianpu Wang}} & Email : \href{mailto:neiyo.wang@gmail.com}{neiyo.wang@gmail.com}\\
-  \href{https://jp-wang.github.io}{https://jp-wang.github.io} & Mobile : +1-408-431-3075 \\
+  Blog: \href{https://jp-wang.github.io}{https://jp-wang.github.io} & Mobile : +1-408-431-3075 \\
+  Medium: \href{https://medium.com/@jpwang}{https://medium.com/@jpwang}\\
 \end{tabular*}
 
 
@@ -103,22 +104,20 @@
         {Staff Software Engineer}{Jan 2015 – May 2018}
       \resumeSubSubHeadingListEnd
       \resumeItemListStart
-        \resumeItem{Overall}
-          {Built an in-car navigation application that ships to General Motors and serves millions of vehicles. Play a tech leader role and lead 10 engineers successfully delivered it to multiple regions with different screen sizes and languages supported-in.}
         \resumeItem{Multiple Screens}
-          {In-car app requires to support multiple screens in the vehicle such as Central Stack, Cluster, RSI. Developed the AIDL interfaces and implemented the navigation service for inter-processes communication.}
-        \resumeItem{Map Display}
-          {Map Rendering requires separate surface in the window to display the map tiles, route and POIs on the screen. Developed the GlMapSurfaceView and delegated render thread that controls Android GlSurfaceView and draw frames into surface.}
+          {In-car app requires to support multiple screens in the vehicle such as Central Stack, Cluster, RSI. Developed the AIDL interfaces and implemented the navigation service for inter-processes communication.} 
+          
+          {Developed the GlMapSurfaceView and delegated render thread that controls Android GlSurfaceView and draw frames into separate surface.}
         \resumeItem{Performance}
           {Lead 2 engineers and improved the app startup time from 30s to less than 5s, saved the memory usage from 1GB into 700MB, and reduced twenty-percent of the CPU peak usage. Write tools to collect the System Logcat logs and generate metrics automatically.}
-        \resumeItem{Predictive Cards}
-          {Developed the core feature Predictive Cards that will show user the most predictable destinations in the particular time based on the driving history. \href{https://github.com/jp-wang/PredictiveCard}{https://github.com/jp-wang/PredictiveCard}}
-        \resumeItem{MVP Framework}
-          {Developed the core MVP framework by following the MVP design pattern that is open-sourced in \href{https://github.com/jp-wang/AwesomeMVP}{Github}. Post was read by more than 300 times \href{https://medium.com/@jpwang/deep-dive-into-mvp-0x01-e3d85e852c8}{https://medium.com/@jpwang/deep-dive-into-mvp-0x01-e3d85e852c8}}
-        \resumeItem{Search}
-          {Built the full Onebox search hybrid flow as well as search along route during user's active navigation.}
-        \resumeItem{Experiment}
-          {Lead two experimental features and one technical improvement. Features: Smart Gas, Electric Vehicle route planning. Technical improvement: Remote Rendering which will render the map on different surfaces from other processes. }
+        \resumeItem{Frameworks}
+          {Developed the core \href{https://github.com/jp-wang/AwesomeMVP}{MVP framework} by following the MVP design pattern.}
+          
+          {Worked on the Remote Rendering lib that renders map on different surfaces from other processes.}
+        \resumeItem{Features}
+          {Developed the core feature Predictive Cards that will show user the most predictable destinations in the particular time based on the driving history.}
+          
+          {Built the Onebox search flow with responsive UI by leveraging the recycleview, and implemented customized EditableTextView widget to serve special UX requirement.}
       \resumeItemListEnd
       
     \resumeSubheading
@@ -142,7 +141,7 @@
         \resumeItem{Tickets Management}
           {Developed the ticket management web application that will collect the events from Customer's device and generate tickets automatically.}
         \resumeItem{Microblog}
-          {Microblog is a system alike the Twitter. Self-learned the Android platform and implemented the mobile client application from scratch.}
+          {Microblog is a system alike the Twitter. Self-learned the Android development and implemented the mobile client application from scratch.}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -151,21 +150,22 @@
 %-----------PROJECTS-----------------
 \section{Published Products}
   \resumeSubHeadingListStart
-    \resumeSubItem{\href{https://play.google.com/store/apps/details?id=com.telenav.app.android.scout_us}{Scout}}
-      {A social navigation app used by millions of users and commented by a hundred thousand people.}
-    \resumeSubItem{GM Nav}
-      {A full navigation system running on GM 3.x infotainment.}
+    \resumeSubItem{\href{https://play.google.com/store/apps/details?id=com.telenav.app.android.scout_us}{Scout GPS Navigation & Meet Up (in Google PlayStore)}}
+      {A social navigation app with 5M+ downloads and 120k+ reviews of 4.4 stars.}
+    \resumeSubItem{GM Nav (preloaded as car system app)}
+      {A full navigation system running on GM 3.x infotainment that ships to 1M+ vehicles.}
   \resumeSubHeadingListEnd
 
 %
 %--------PROGRAMMING SKILLS------------
 \section{Programming Skills}
  \resumeSubHeadingListStart
-   \item{
-     \textbf{Languages}{: Java, Kotlin, Python, Shell, SQL}
+   \resumeSubItem{Languages}
+     {{Java, Kotlin, Python, Shell, SQL}
      \hfill
-     \textbf{Technologies}{: Jetpack, Dagger2, Retrofit, RxJava, Coroutine}
-   }
+     \textbf{Technologies}{: Jetpack, Dagger2, Retrofit, RxJava, Coroutine}}
+   \resumeSubItem{Methodologies}
+     {Agile/SCRUM, DDD, TDD, Clean Code}
  \resumeSubHeadingListEnd
 
 
